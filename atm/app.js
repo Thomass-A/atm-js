@@ -169,7 +169,7 @@ class App extends Component {
 render(h(App), document.querySelector('#render'));
 
 function ready() {
-    if ('alt' in window) {
-        alt.emit('atm:Ready');
+    if ('fivem' in window) {
+        fivem.emit('atm:Ready');
     }
 }
