@@ -1,4 +1,4 @@
-import * as alt from 'alt';
+import * as alt from 'fivem';
 
 // Called when the player wants to make a withdrawl from the ATM.
 export function withdraw(player, value) {
